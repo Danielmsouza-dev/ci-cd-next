@@ -40,3 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 node_modules\n.next\n.vercel\nout\ncoverage
+
+.vercel
+
+.vercel
+coverage
+.vitest
