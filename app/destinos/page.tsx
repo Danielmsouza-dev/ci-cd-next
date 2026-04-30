@@ -4,12 +4,13 @@ export default function DestinosPage() {
   const destinos = [
     { id: 1, nome: "Paris, França", descricao: "Torre Eiffel e gastronomia" },
     { id: 2, nome: "Tóquio, Japão", descricao: "Tecnologia e tradição" },
+    { id: 3, nome: "Rio de Janeiro, Brasil", descricao: "Cristo Redentor e praias" },
   ];
 
   return (
     <main className="min-h-screen p-8">
       <h1 className="text-3xl font-bold mb-6">Destinos Turísticos 🌍</h1>
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {destinos.map(destino => (
           <div key={destino.id} className="border rounded-lg p-4 shadow">
             <h2 className="text-xl font-semibold">{destino.nome}</h2>
